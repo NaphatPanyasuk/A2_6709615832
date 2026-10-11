@@ -18,8 +18,8 @@
     </header>
 
     <main class="container my-5">
-        <section id="about" class="mb-5 bg-white p-4 p-md-5 rounded shadow-sm border-top-custom">
-            <h2 class="text-primary-custom">About Me</h2>
+        <h2 class="text-primary-custom">About Me</h2>
+        <section class="mb-5 bg-white p-4 p-md-5 rounded shadow-sm border-top-custom">
             <div class="row align-items-center">
                 <div class="col-md-4 text-center mb-4 mb-md-0">
                     <img src="media/profile.png" alt="Profile Picture" class="img-fluid border border-primary-custom" style="max-width: 200px;">
@@ -50,66 +50,40 @@
             </div>
         </section>
 
-        <section id="built">
-            <div class="container">
-                <h2>What I Built</h2>
-                <p>
-                    งานนี้คือเว็บไซต์ <strong>Portfolio</strong>ที่รวบรวมข้อมูลแนะนำตัว
-                    รายละเอียดของงาน วิธีการพัฒนาและสิ่งที่ได้เรียนรู้
-                </p>
-                <h2>เปิดเว็บไซต์จากเครื่องตัวเอง มี Client หรือ Server เกิดขึ้นแล้วหรือไม่</h2>
-                <p>
-                    มี Clientเกิดขึ้นแล้วแต่ยังไม่มี Web Server เพราะเมื่อเปิดไฟล์ HTML จากเครื่องโดยตรง
-                    Browser ทำหน้าที่เป็น Client ที่อ่านไฟล์จากระบบไฟล์ของเครื่อง
-                    แล้วแปลผล HTML และ CSS เพื่อแสดงหน้าเว็บให้ผู้ใช้เห็น
-                </p>
+        <section class="mb-5">
+            <h2 class="mb-4 text-primary-custom">My Portfolio</h2>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Hackathon</span>
+                            <h3 class="card-title h5 fw-bold">67Hackathon</h3>
+                            <p class="text-muted small mb-3"><strong>Date:</strong> 16 August 2026 | <strong>Role:</strong> Researcher</p>
+                            <p class="card-text"><strong>Description:</strong> เข้าร่วม hackathon เพื่อวิเคราะห์ปัญหาและเสนอวิธีแก้ปัญหา</p>
+                            
+                            <div class="mb-3">
+                                <strong>Skills:</strong> <span class="badge bg-secondary">Problem Solving</span> <span class="badge bg-secondary">Data Analysis</span>
+                            </div>
+                            
+                            <div class="reflection-box bg-light p-3 rounded mb-3">
+                                <h4 class="h6 fw-bold">Reflection</h4>
+                                <ul class="small mb-0 ps-3">
+                                    <li><strong>What I did:</strong> ได้ตีความว่าในมีมแต่ละอันอาจจะปัญหาของคนอยู่ในนั้น</li>
+                                    <li><strong>What I learned:</strong> ได้เรียนรู้วิธีการทำงานร่วมกันของทีมและเทคนิคการวิเคราะห์ปัญหา</li>
+                                    <li><strong>Challenge:</strong> พบปัญหาในการสื่อสารกับสมาชิกทีม</li>
+                                    <li><strong>Next step:</strong> ต้องการพัฒนาทักษะการสื่อสารและการทำงานร่วมกันในทีมให้ดียิ่งขึ้น</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <strong>Evidence:</strong><br>
+                                <a href="https://github.com/icezwa/TUNGkid" class="btn btn-outline-dark btn-sm mt-2" target="_blank">GitHub Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="how">
-            <div class="container">
-                <h2>How I Built It</h2>
-                <h3>Development Steps</h3>
-                <ol>
-                    <li>วางแผนโครงสร้างเว็บไซต์และลำดับเนื้อหา</li>
-                    <li>สร้างไฟล์ index.html และโครงสร้าง HTML พื้นฐาน</li>
-                    <li>สร้างไฟล์ style.css และเชื่อมด้วย link rel="stylesheet"</li>
-                </ol>
-                <h3>Learning resources</h3>
-                <ol>
-                    <li>Youtube</li>
-                    <li>แหล่ง Website ออนไลน์ต่าง ๆ</li>
-                    <li>AI ช่วยหาข้อมูลจาก Website</li>
-                </ol>
-            </div>
-        </section>
-
-        <section id="reflection">
-            <div class="container">
-                <h2>Reflection</h2>
-                <h3>ปัญหาและความท้าทาย</h3>
-                <ul>
-                    <li>สับสนว่าควรใช้ tool ไหนให้เหมาะสมกับงาน</li>
-                    <li>เขียน path รูปผิด ทำให้เกิด broken image</li>
-                </ul>
-                <p>
-                    แก้ปัญหาด้วยการใช้ Developer Tools ตรวจ box model
-                    และกำหนด max-width ให้รูปภาพ
-                </p>
-                <h3>สิ่งที่เข้าใจมากขึ้น</h3>
-                <ul>
-                    <li>HTML ทำหน้าที่สร้างโครงสร้างไม่ใช่ตกแต่ง</li>
-                    <li>CSS ทำหน้าที่กำหนดรูปแบบและ Layout</li>
-                    <li>การใช้ tool ต่าง ๆ ให้เหมาะสม</li>
-                </ul>
-                <h3>สิ่งที่อยากพัฒนาต่อ</h3>
-                <ul>
-                    <li>ปรับปรุง Responsive Design ให้ละเอียดขึ้น</li>
-                    <li>เพิ่ม Project Showcase ในอนาคต</li>
-                    <li>ศึกษา Dark Mode ด้วย CSS ในงานถัดไป</li>
-                </ul>
-            </div>
-        </section>
     </main>
 </body>
 </html>
