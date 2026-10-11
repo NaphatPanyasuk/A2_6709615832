@@ -7,3 +7,29 @@
     color: #1f3557;
     font-weight: bold;
 }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.border-top-custom {
+    border-top: 4px solid #e08b2f !important;
+}
+
+.reflection-box {
+    border-left: 3px solid #1f3557;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-group-item {
+    padding: 15px 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
