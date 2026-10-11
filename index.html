@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +8,47 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <header class="site-header">
+
+<body class="bg-light">
+
+    <header class="site-header text-white text-center py-5">
         <div class="container">
-            <h1>Portfolio</h1>
+            <h1 class="display-4 fw-bold">Portfolio</h1>  
         </div>
     </header>
-    <main>
-        <section id="about">
-            <div class="container">
-                <h2>About Me</h2>
-                <div class="about-grid">
-                    <div>
-                        <img src="media/profile.png" alt="Profile picture">
-                    </div>
-                    <div>
-                        <ul class="profile-facts">
-                            <li><strong>Name-Last name</strong> Naphat Panyasuk</li>
-                            <li><strong>Student ID</strong> 6709615832</li>
-                            <li><strong>Major / Faculty</strong> Science and Technology / Statistics</li>
-                            <li><strong>University</strong> Thammasat university</li>
-                            <li><strong>ผมเป็นนักศึกษาที่กำลังเริ่มเรียนการเขียน website จากวิชา cs100 ที่ผมได้เลือกมาเป็นวิชาโท
-                            ปัจจุบันเป็นนักศึกษาชั้นปีที่3จากคณะวิทยาศาสตร์และเทคโนโลยีสาขาสถิติศาสตร์</strong></li>
-                        </ul>
-                    </div>
+
+    <main class="container my-5">
+        <section id="about" class="mb-5 bg-white p-4 p-md-5 rounded shadow-sm border-top-custom">
+            <h2 class="text-primary-custom">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img src="media/profile.png" alt="Profile Picture" class="img-fluid border border-primary-custom" style="max-width: 200px;">
+                </div>
+                <div class="col-md-8">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex flex-column flex-sm-row">
+                            <strong class="col-sm-4 text-muted">Name-Last name:</strong> 
+                            <span class="col-sm-8">Naphat Panyasuk</span>
+                        </li>
+                        <li class="list-group-item d-flex flex-column flex-sm-row">
+                            <strong class="col-sm-4 text-muted">Student ID:</strong> 
+                            <span class="col-sm-8">6709615832</span>
+                        </li>
+                        <li class="list-group-item d-flex flex-column flex-sm-row">
+                            <strong class="col-sm-4 text-muted">Faculty/Major:</strong> 
+                            <span class="col-sm-8">Science and Technology / Statistics</span>
+                        </li>
+                        <li class="list-group-item d-flex flex-column flex-sm-row">
+                            <strong class="col-sm-4 text-muted">University:</strong> 
+                            <span class="col-sm-8">Thammasat University</span>
+                        </li>
+                        <li class="list-group-item mt-3 border-0">
+                            ผมเป็นนักศึกษาชั้นปีที่ 3 จากคณะวิทยาศาสตร์และเทคโนโลยี สาขาสถิติศาสตร์ ที่กำลังเริ่มเรียนการพัฒนาเว็บไซต์จากวิชา CS100 ซึ่งผมเลือกเรียนเป็นวิชาโท มีความสนใจในการนำข้อมูลมาประยุกต์ใช้ร่วมกับเทคโนโลยีครับ
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>999
+        </section>
 
         <section id="built">
             <div class="container">
